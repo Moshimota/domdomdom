@@ -8,7 +8,7 @@ btn1.addEventListener("click", (e) => {
     const ran = Math.random()
     div1.innerHTML = `<img src="./img/камень.png" alt="" class="dom">`
     if(ran < 0.333){
-        div2.innerHTML = `<img src="./img/нож.png" alt="" class="dom">`
+        div2.innerHTML = `<img src="./img/камень.png" alt="" class="dom">`
         txt.innerHTML = "Nichya"
     }else if(ran < 0.666){
         div2.innerHTML = `<img src="./img/нож.png" alt="" class="dom">`
@@ -23,7 +23,7 @@ btn2.addEventListener("click", (e) => {
     const ran = Math.random()
     div1.innerHTML = `<img src="./img/нож.png" alt="" class="dom">`
     if(ran < 0.333){
-        div2.innerHTML = `<img src="./img/нож.png" alt="" class="dom">`
+        div2.innerHTML = `<img src="./img/камень.png" alt="" class="dom">`
         txt.innerHTML = "ПК yutdi"
     }else if(ran < 0.666){
         div2.innerHTML = `<img src="./img/нож.png" alt="" class="dom">`
@@ -38,7 +38,7 @@ btn3.addEventListener("click", (e) => {
     const ran = Math.random()
     div1.innerHTML = `<img src="./img/бумага.png" alt="" class="dom">`
     if(ran < 0.333){
-        div2.innerHTML = `<img src="./img/нож.png" alt="" class="dom">`
+        div2.innerHTML = `<img src="./img/камень.png" alt="" class="dom">`
         txt.innerHTML = "Siz yutdingiz"
     }else if(ran < 0.666){
         div2.innerHTML = `<img src="./img/нож.png" alt="" class="dom">`
