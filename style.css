@@ -54,3 +54,10 @@
 .img2{
     text-align: center;
 }
+.df3{
+    display: flex;
+    justify-content: space-around;
+}
+.dfem{
+    text-align: center;
+}
